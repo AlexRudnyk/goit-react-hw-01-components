@@ -1,0 +1,32 @@
+.table {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 500px;
+  text-align: center;
+  border: 1px solid #e0e5e8;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 1), -23px 0 20px -23px rgba(0, 0, 0, 0.8),
+    23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.thead {
+  background-color: #00bcd5;
+  color: #ffffff;
+}
+
+.trow {
+  background-color: #fff;
+  text-transform: capitalize;
+}
+
+.trow:nth-child(2n + 1) {
+  background-color: #ecf1f4;
+}
+
+tr {
+  height: 40px;
+}
+
+td {
+  border: 1px solid #e0e5e8;
+}
